@@ -14,14 +14,14 @@ A continuación se detallan los ejercicios realizados.
 
 | Ejercicio | Descripción |
 | :--- | :--- |
-| **01** | Clases y Objetos (Alumno, Banda, Perro) |
-| **02** | Modelado de Clases (Taxis, Sony, Sumatoria) |
-| **03** | * Cambio de ºC a ºF  |
-| **04** | Entrega Trabajo Práctico - DOM - |
-| **05** | Funciones Callback (Validación y Cálculos) - |
-| **06** | * Manejo de Promesas en JavaScript - |
-| **07** | Api Rest n°1 (Rick and Morty) - |
-| **08** | * Api Rest n°2 (Ghibli API) - |
+| **01** | Fundamentos de POO: Modelado de Entidades Realistas |
+| **02** | Arquitectura de Software: Jerarquías y Herencia de Clases |
+| **03** | Lógica de Algoritmos: Conversor de Unidades Térmicas |
+| **04** | Manipulación Dinámica del DOM: Interactividad en Tiempo Real |
+| **05** | Control de Asincronía: Implementación de Funciones Callback |
+| **06** | Gestión de Flujos Asíncronos: Resolución de Promesas |
+| **07** | Consumo de API REST: Gestión de Datos con Rick & Morty |
+| **08** | Integración de Servicios Externos: Catálogo de Studio Ghibli |
 
 ---
 *Hecho con ♥  por NR- Abril 2026*
