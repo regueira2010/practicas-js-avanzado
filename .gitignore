@@ -1,0 +1,13 @@
+# Documentación y Guías
+*.pdf
+
+# Configuración del Sistema
+.DS_Store
+Thumbs.db
+
+# Carpetas de dependencias (por si usas npm más adelante)
+node_modules/
+dist/
+
+# Archivos de entorno/secretos
+.env
