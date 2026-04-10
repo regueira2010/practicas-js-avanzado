@@ -1,10 +1,12 @@
+import { Alumno } from "./Alumno.js";
+
 const inputNombre = document.getElementById("inputNombreAlumno");
 const inputEdad = document.getElementById("inputEdadAlumno");
 const inputCarrera = document.getElementById("inputCarreraAlumno");
 const btnIniciar = document.getElementById("btnIniciar");
 const respDOM = document.getElementById("resultado");
 
-class Alumno {
+/* class Alumno {
   constructor(nombre, edad, carrera) {
     this.nombre = nombre;
     this.edad = edad;
@@ -25,12 +27,12 @@ class Alumno {
       `Hola, soy ${this.nombre},  tengo ${this.edad} años y estoy cursando la carrera de ${this.carrera}`,
     );
   }
-}
+} */
 
 btnIniciar.addEventListener("click", () => {
-  datoNombre = inputNombre.value;
-  datoEdad = inputEdad.value;
-  datoCarrera = inputCarrera.value;
+  const datoNombre = inputNombre.value;
+  const datoEdad = inputEdad.value;
+  const datoCarrera = inputCarrera.value;
 
   if (!datoNombre || !datoEdad || !datoCarrera) {
     respDOM.classList.remove("d-none");
@@ -41,8 +43,8 @@ btnIniciar.addEventListener("click", () => {
     `;
     return;
   }
-  const alumno = new Alumno(datoNombre, datoEdad, datoCarrera);
-  alumno.saludar(respDOM);
+  const nuevoAlumno = new Alumno(datoNombre, datoEdad, datoCarrera);
+  nuevoAlumno.saludar(respDOM);
 
   inputNombre.value = "";
   inputEdad.value = "";
