@@ -30,7 +30,7 @@ const mensaje = document.getElementById("resultado");
 btnGuardarAlumno.addEventListener("click", () => {
   const datoNombreAlumno = inputNombreAlumno.value;
   const datoEdadAlumno = inputEdadAlumno.value;
-  const datoCarreraAlumno = inputIntegrantesBanda.value;
+  const datoCarreraAlumno = inputCarreraAlumno.value;
 
   if (!datoNombreAlumno || !datoEdadAlumno || !datoCarreraAlumno) {
     mensaje.classList.remove("d-none");
