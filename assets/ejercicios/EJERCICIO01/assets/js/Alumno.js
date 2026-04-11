@@ -1,8 +1,9 @@
 export class Alumno {
-  constructor(nombre, edad, carrera) {
+  constructor (nombre, edad, carrera) {
     this.nombre = nombre;
     this.edad = edad;
     this.carrera = carrera;
+
   }
 
   saludar(contenedor) {
