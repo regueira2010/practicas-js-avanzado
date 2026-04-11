@@ -2,6 +2,7 @@
 import { Alumno } from "./Alumno.js";
 import { Banda } from "./Banda.js";
 import { Perro } from "./Perro.js";
+import { mostrarFormularioAlumno, mostrarFormularioBanda, mostrarFormularioPerro } from "./ui.js";
 
 // Elementos del DOM
 const inputNombreAlumno = document.getElementById("inputNombreAlumno");
@@ -102,3 +103,9 @@ btnGuardarPerro.addEventListener("click", () => {
     inputEdadPerro.value = "";
     inputColorPerro.value = "";
 })
+
+
+
+document.getElementById("tabAlumno").addEventListener("click", mostrarFormularioAlumno);
+document.getElementById("tabBanda").addEventListener("click", mostrarFormularioBanda);
+document.getElementById("tabPerro").addEventListener("click", mostrarFormularioPerro);

@@ -40,41 +40,64 @@
                                     <input type="text" id="inputCarreraAlumno" class="form-control"
                                         placeholder="Carrera">
                                 </div>
+                                <div class="row g-2">
+                                    <div class="col-12 mt-3 text-center">
+                                        <button id="btnGuardarAlumno" class="btn btn-primary px-4">Registrar
+                                            Alumno</button>
+                                    </div>
+                                </div>
                             </div>
 
-                            <div id="formBanda" class="row g-2 d-none">
+                            <div id="formBanda" class="row g-3 d-none">
                                 <div class="col-12">
-                                    <input type="text" id="inputBanda" class="form-control"
-                                        placeholder="Nombre de la Banda">
+                                    <label class="form-label small fw-bold">Nombre de la Banda</label>
+                                    <input type="text" id="inputNombreBanda" class="form-control">
                                 </div>
-                                <div class="col-12 mt-2">
-                                    <input type="text" id="inputGenerobanda" class="form-control"
-                                        placeholder="Género Musical">
+                                <div class="col-12">
+                                    <label class="form-label small fw-bold">Género Musical</label>
+                                    <input type="text" id="inputGeneroBanda" class="form-control">
                                 </div>
-                                <div class="col-12 mt-2">
-                                    <input type="text" id="inputIntegrantesBanda" class="form-control"
-                                        placeholder="Integrantes">
+                                <div class="col-12">
+                                    <label class="form-label small fw-bold">Álbumes</label>
+                                    <textarea id="inputAlbumBanda" class="form-control" rows="2"
+                                        placeholder="Ej: Abbey Road, Let It Be"></textarea>
                                 </div>
-                                <div class="col-12 mt-2">
-                                    <input type="text" id="inputDiscosBanda" class="form-control" placeholder="Discos">
+                                <div class="col-12">
+                                    <label class="form-label small fw-bold">Integrantes</label>
+                                    <textarea id="inputIntegrantesBanda" class="form-control" rows="2"
+                                        placeholder="Ej: John, Paul, George, Ringo"></textarea>
+                                </div>
+                                <div class="row g-3">
+                                    <div class="col-12 mt-3 text-center">
+                                        <button id="btnGuardarBanda" class="btn btn-success px-4">Guardar Banda</button>
+                                    </div>
                                 </div>
                             </div>
 
                             <div id="formPerro" class="row g-2 d-none">
-                                <div class="col-12">
+                                <div class="col-6">
                                     <input type="text" id="inputPerro" class="form-control" placeholder="Nombre Perro">
                                 </div>
-                                <div class="col-8">
+                                <div class="col-6">
                                     <input type="text" id="inputRazaPerro" class="form-control" placeholder="Raza">
                                 </div>
                                 <div class="col-4">
                                     <input type="number" id="inputEdadPerro" class="form-control" placeholder="Edad">
                                 </div>
+                                <div class="col-8">
+                                    <input type="text" id="inputColorPerro" class="form-control" placeholder="Color">
+                                </div>
+                                <div class="row g-2">
+                                    <div class="col-12 mt-3 text-center">
+                                        <button id="btnGuardarPerro" class="btn btn-warning px-4">Registrar
+                                            Mascota</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
                         <div class="d-grid gap-2 d-md-flex justify-content-center">
-                            <button id="btnIniciar" class="btn btn-success px-5">Iniciar</button>
+                            <!-- <button type="submit" id="btnIniciar" class="btn btn-success px-5">Iniciar</button> -->
                             <a href="../../../index.html" class="btn btn-light">Volver</a>
                         </div>
 
