@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 02 - Arquitectura de Software: Jerarquías y Herencia de Clases</title>
+    <link rel="icon" type="image/x-icon" href="../../img/favicon/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-light">
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card shadow border-0">
+                    <div class="card-header bg-dark text-white text-center py-3">
+                        <h2 class="h5 mb-0" id="tituloCard">Registro de Taxi Tradicional</h2>
+                    </div>
+
+                    <div class="card-body">
+                        <div class="btn-group w-100 mb-4 shadow-sm">
+                            <button id="tabTradicional" class="btn btn-outline-dark active">Tradicional</button>
+                            <button id="tabParticular" class="btn btn-outline-dark">Particular</button>
+                            <button id="tabCargo" class="btn btn-outline-dark">Cargo</button>
+                        </div>
+
+                        <div id="contenedorFormularios">
+                            
+                            <div id="formTradicional" class="row g-3 d-none">
+                                <div class="col-md-4">
+                                    <label class="form-label fw-bold small">Patente</label>
+                                    <input type="text" id="patenteTrad" class="form-control" placeholder="ABC-123">
+                                </div>
+                                <div class="col-md-4">
+                                    <label class="form-label fw-bold small">Marca</label>
+                                    <input type="text" id="marcaTrad" class="form-control">
+                                </div>
+                                <div class="col-md-4">
+                                    <label class="form-label fw-bold small">Modelo</label>
+                                    <input type="text" id="modeloTrad" class="form-control">
+                                </div>
+                                <div class="col-md-12">
+                                    <label class="form-label fw-bold small">Conductor</label>
+                                    <input type="text" id="conductorTrad" class="form-control">
+                                </div>
+                                <div class="col-12 text-center mt-4">
+                                    <button id="btnGuardarTradicional" class="btn btn-primary px-5">Registrar (Licencia A1)</button>
+                                </div>
+                            </div>
+
+                            <div id="formParticular" class="row g-3 d-none">
+                                <div class="col-md-6">
+                                    <label class="form-label fw-bold small">Patente</label>
+                                    <input type="text" id="patentePart" class="form-control">
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label fw-bold small">Categoría</label>
+                                    <select id="categoriaPart" class="form-select">
+                                        <option value="Express">Taxi Express</option>
+                                        <option value="Premium">Taxi Premium</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label fw-bold small">Marca</label>
+                                    <input type="text" id="marcaPart" class="form-control">
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label fw-bold small">Modelo</label>
+                                    <input type="text" id="modeloPart" class="form-control">
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label fw-bold small">Conductor</label>
+                                    <input type="text" id="conductorPart" class="form-control">
+                                </div>
+                                <div class="col-12 text-center mt-4">
+                                    <button id="btnGuardarParticular" class="btn btn-dark px-5">Registrar (Licencia B)</button>
+                                </div>
+                            </div>
+
+                            <div id="formCargo" class="row g-3">
+                                <div class="col-md-6">
+                                    <label class="form-label fw-bold small">Patente</label>
+                                    <input type="text" id="patenteCargo" class="form-control">
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label fw-bold small">Conductor</label>
+                                    <input type="text" id="conductorCargo" class="form-control">
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label fw-bold small">Marca</label>
+                                    <input type="text" id="marcaCargo" class="form-control">
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label fw-bold small">Modelo</label>
+                                    <input type="text" id="modeloCargo" class="form-control">
+                                </div>
+                                <div class="col-12 text-center mt-4">
+                                    <button id="btnGuardarCargo" class="btn btn-warning px-5">Registrar Carga (Licencia B)</button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="mt-4 text-center border-top pt-3">
+                            <a href="index.html" class="btn btn-link text-decoration-none">← Volver al inicio</a>
+                        </div>
+
+                        <div id="resultado" class="mt-4 p-3 border rounded bg-white d-none shadow-sm"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>
