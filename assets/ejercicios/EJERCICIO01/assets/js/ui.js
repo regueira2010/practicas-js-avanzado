@@ -8,12 +8,10 @@ const tabBan = document.getElementById("tabBanda");
 const tabPer = document.getElementById("tabPerro");
 
 export function mostrarFormularioAlumno() {
-    // Título y Clases Active
     titulo.innerText = "Gestión de Alumnos";
     tabAlu.classList.add("active");
     tabBan.classList.remove("active");
     tabPer.classList.remove("active");
-    // Visibilidad
     formAlu.classList.remove("d-none");
     formBan.classList.add("d-none");
     formPer.classList.add("d-none");
