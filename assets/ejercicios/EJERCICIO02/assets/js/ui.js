@@ -18,11 +18,9 @@ export function mostrarFormularioTradicional() {
   tabTra.classList.add("active");
   tabPar.classList.remove("active");
   tabCar.classList.remove("active");
-
   formTra.classList.remove("d-none");
   formPar.classList.add("d-none");
   formCar.classList.add("d-none");
-
   divResultado.classList.add("d-none");
 }
 
