@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +10,18 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Arquitectura de clases POO con JS</a>
+            <div class="navbar-nav">
+                <a class="nav-link" href="index.html">Gestión Taxis</a>
+                <a class="nav-link" href="assets/pages/sony.html">Catálogo Sony</a>
+                <a class="nav-link" href="assets/pages/sumatoria.html">Sumatoria</a>
+            </div>
+        </div>
+    </nav>
     <div class="container py-5">
         <div class="row justify-content-center">
             <div class="col-md-8">
@@ -26,7 +38,7 @@
                         </div>
 
                         <div id="contenedorFormularios">
-                            
+
                             <div id="formTradicional" class="row g-3 d-none">
                                 <div class="col-md-4">
                                     <label class="form-label fw-bold small">Patente</label>
@@ -45,7 +57,8 @@
                                     <input type="text" id="conductorTrad" class="form-control">
                                 </div>
                                 <div class="col-12 text-center mt-4">
-                                    <button id="btnGuardarTradicional" class="btn btn-primary px-5">Registrar (Licencia A1)</button>
+                                    <button id="btnGuardarTradicional" class="btn btn-primary px-5">Registrar (Licencia
+                                        A1)</button>
                                 </div>
                             </div>
 
@@ -74,7 +87,8 @@
                                     <input type="text" id="conductorPart" class="form-control">
                                 </div>
                                 <div class="col-12 text-center mt-4">
-                                    <button id="btnGuardarParticular" class="btn btn-dark px-5">Registrar (Licencia B)</button>
+                                    <button id="btnGuardarParticular" class="btn btn-dark px-5">Registrar (Licencia
+                                        B)</button>
                                 </div>
                             </div>
 
@@ -96,7 +110,8 @@
                                     <input type="text" id="modeloCargo" class="form-control">
                                 </div>
                                 <div class="col-12 text-center mt-4">
-                                    <button id="btnGuardarCargo" class="btn btn-warning px-5">Registrar Carga (Licencia B)</button>
+                                    <button id="btnGuardarCargo" class="btn btn-warning px-5">Registrar Carga (Licencia
+                                        B)</button>
                                 </div>
                             </div>
 
@@ -114,4 +129,5 @@
     </div>
     <script type="module" src="assets/js/app.js"></script>
 </body>
+
 </html>

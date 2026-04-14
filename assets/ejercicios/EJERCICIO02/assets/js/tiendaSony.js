@@ -7,7 +7,7 @@ const catalogo = [
   new Televisor("OLED A80K", "A80K", 1299990, "img_oled.jpg", 55, "OLED"),
   new Consola("PlayStation 5", "Slim Edition", 549990, "ps5.jpg", "1TB SSD"),
 ];
-console.log(catalogo)
+//console.log(catalogo)
 
 function renderizar(lista) {
   contenedor.innerHTML = "";
