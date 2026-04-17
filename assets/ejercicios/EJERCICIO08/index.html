@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Ghibli API - Reto Clase</title>
+    <link rel="icon" type="image/x-icon" href="../../img/favicon/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-light">
+
+    <div class="container py-5">
+        <div class="text-center mb-5">
+            <h1 class="display-4 fw-bold text-dark">Personajes de Disney</h1>
+            <p class="text-muted">Consumo de API con Clean Code y Event Listeners</p>
+            
+            <div class="d-flex justify-content-center gap-2 mt-4">
+                <button id="btn-cargar" class="btn btn-primary px-4">Cargar Personajes</button>
+                <button id="btn-limpiar" class="btn btn-outline-secondary px-4">Limpiar Pantalla</button>
+            </div>
+            <div class="mt-4 text-center border-top pt-3">
+                <a href="../../../index.html" class="btn btn-link text-decoration-none">← Volver al inicio</a>
+            </div>
+        </div>
+
+        <div id="personajes-container" class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4"></div>
+    </div>
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
