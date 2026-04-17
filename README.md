@@ -21,7 +21,7 @@ A continuación se detallan los ejercicios realizados.
 | **05** | Control de Asincronía: Implementación de Funciones Callback |
 | **06** | Gestión de Flujos Asíncronos: Resolución de Promesas |
 | **07** | Consumo de API REST: Gestión de Datos con Rick & Morty |
-| **08** | Integración de Servicios Externos: Catálogo de Studio Ghibli |
+| **08** | Consumo de API: Basada en personajes de Disney |
 
 ---
 *Hecho con ♥  por NR- Abril 2026*
